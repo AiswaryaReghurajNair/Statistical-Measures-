@@ -8,4 +8,4 @@ price (float64): Price of the property in lakhs.
 bhk (int64): Number of bedrooms.
 price_per_sqft (int64): Price per square foot.
 price_per_sqft has a high standard deviation, indicating significant variation in property prices.
-The IQR method identified the most outliers, followed by the Percentile method.
+Percentile and IQR methods remove more extreme values than the Mean & Std Dev and Z Score methods,
